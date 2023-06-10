@@ -9,19 +9,21 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<center><h1>Feedback Form</h1></center>
-	<form>
+	<form action="/.action" method="post">
 	<label for="name">Enter Your Name :</label>
 	<input requred type="text" name="name" id="name" minlength="3" maxlength="50" placeholder="Enter your name">
         <br>
 		<br>
 	<label for="portfolio">portfolio :</label>
-	<input requred type="text" name="portfolio" id="portfolio" >
+	<input requred type="url" name="portfolio" id="portfolio" >
 <br><br>
 		<label for="favColor">chose your fav color :</label>
 	<input requred type="color" name="favColor" id="favColor" >
 		<br><br>
 		<label for="likenes">chose how much you like your color :</label>
 	<input requred type="range" name="plikenes" id="likenes" >
+		<br>
+		<button>submit</button>
 	</form>	
 		<script type="text/javascript" src="./script.js">
 </script>
